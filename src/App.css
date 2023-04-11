@@ -1,7 +1,94 @@
 .App {
   text-align: center;
 }
+.header {
+  padding: 2%;
+}
 
+.main-content {
+  padding-top: 10px;
+}
+.inputField {
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.addBtn {
+    margin-left: 20px;
+    height: 40px;
+    width: 125px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+}
+.deleteAllBtn {
+  margin-left: 20px;
+  margin-top: 2px;
+  height: 40px;
+  width: 125px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.contents {
+  text-align: center;
+  padding: 10px;
+  /* background-color: aqua; */
+  display: flex;
+  padding-left: 360px;
+  /* border: 1px,solid,black ; */
+}
+
+.todoTxt {
+  width: 380px;
+  /* height: 35px; */
+  text-align: start;
+  /* background-color: red; */
+}
+
+.deleteBtn {
+  margin-left: 400px;
+  margin-top: 14px;
+  height: 34px;
+  width: 110px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.longHR {
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 355px;
+}
+.shortHR {
+  width: 520px;
+  margin-top: -10px;
+  margin-left: 355px;
+}
+/* hr {
+  width: 800px;
+  margin-top: 20px;
+} */
+
+
+
+
+
+
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +122,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
