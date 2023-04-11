@@ -6,9 +6,13 @@ function App() {
   const [todoArray, setTodoArray] = useState([]);
 
   const AddData = () => {
-    setTodoArray([todo , ...todoArray]);
-    setTodo('');
-    localStorage.setItem("todo", JSON.stringify([todo, ...todoArray]));
+    if (todo == "") {
+      alert("Please write your Todo's first.")
+    } else {      
+      setTodoArray([todo , ...todoArray]);
+      setTodo('');
+      localStorage.setItem("todo", JSON.stringify([todo, ...todoArray]));
+    }
   }
 
   const RemoveAllData = () => {
