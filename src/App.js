@@ -64,14 +64,6 @@ function App() {
         })
       }
 
-      {/* {
-        todoArray !== ""
-        ?
-
-        : 
-        null
-      } */}
-
       <br />
     </div>
   );
